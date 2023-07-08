@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forgot Pass Page</title>
+    <style>
+      * {
+        text-align: center;
+        margin-top: 10px;
+      }
+      input[type="text"] {
+        margin-left: 10px;
+        width: 50%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-top: 30px;
+        cursor: pointer;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #7abcbc;
+        background-image: url(https://www.quicklly.com/upload_images/blog/1629445694-find-the-best-online-indian-grocery-store-in-manhattan-ny.jpeg);
+      }
+      label {
+        font-weight: bold;
+      }
+      input[type="RESET"],
+      input[type="Back"] {
+        width: 15%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        background-color: #4caf50;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+</html>
+<body>
+  <form>
+    <h2>Forgot Password</h2>
+    <p>
+      Enter the email address for your account.A verification code will be sent
+      to you.Once you have received the verification code.You will be able
+      choose new password to your account.
+    </p>
+    <div>
+      <label for="Enter Email Id">Emaild Id:</label>
+      <input type="text" id="Emaild" name="email" />
+    </div>
+    <!--<a href="./login.html"><input type="Back" value="Back" required/></a>-->
+  </form>
+  <a href="./login.html"><input type="Back" value="Back" required /></a>
+  <a href="./confirmpass.html"><input type="Reset" value="Reset" required /></a>
+</body>
